@@ -1,3 +1,2 @@
-FROM scratch
-COPY hello /
-CMD ["/hello"]
+FROM nginx:alpine
+COPY . /usr/share/nginx/html
